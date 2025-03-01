@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
-import LogoImg from "../assets/Logo/Logo_dark.png";
 import { Link, useLocation } from "react-router-dom";
 import { useContextProvider } from "../utils/GlobleContextProvider";
 import gsap from "gsap";
@@ -317,7 +316,7 @@ const Navbar = () => {
     <Container>
       <Nav>
         <Logo to="/" className="logo">
-          <img src={LogoImg} alt="Logo" />
+        <h1>Rizvi.dev</h1>
         </Logo>
         <MenuBtn
           onClick={() => toggleMenu()}
