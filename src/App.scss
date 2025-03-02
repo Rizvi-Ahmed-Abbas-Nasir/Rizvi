@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+AU+VIC+Guides&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+AU+VIC+Guides&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Lobster&family=Oswald:wght@200..700&family=Playwrite+AU+VIC+Guides&family=Roboto+Condensed:wght@100&display=swap');* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -83,3 +83,12 @@ a {
 	font-weight: 400;
 	font-style: normal;
 }
+
+
+
+.roboto{
+	font-family: "Roboto Condensed", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+  }

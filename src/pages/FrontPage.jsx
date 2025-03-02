@@ -183,7 +183,7 @@ export default function Content() {
 
             <div className="Descriptions">
                 <div  id='Introduction' className="PlayfairFont">
-                <p>hello there,</p><p> My Name is </p>
+                <p>hello there,</p><p>  My Name is </p>
                 </div>
                 <div id="MyName" className="oswarld" > 
                <h2>Rizvi Ahmed Abbas</h2>

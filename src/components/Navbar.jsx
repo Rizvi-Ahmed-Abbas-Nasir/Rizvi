@@ -316,7 +316,7 @@ const Navbar = () => {
     <Container>
       <Nav>
         <Logo to="/" className="logo">
-        <h1>Rizvi.dev</h1>
+        <h1>warrior.dev</h1>
         </Logo>
         <MenuBtn
           onClick={() => toggleMenu()}

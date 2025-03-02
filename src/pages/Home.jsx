@@ -12,7 +12,7 @@ import { useContextProvider } from "../utils/GlobleContextProvider";
 import Marquee from "../components/Marquee";
 import Approch from "../components/Sections/home/Approch";
 import { Link, useNavigate } from "react-router-dom";
-import FrontPage from "../pages/FrontPage"
+import FrontPage from "../pages/3DFrontPage"
 const Container = styled.div``;
 
 const Hero = styled.div`
