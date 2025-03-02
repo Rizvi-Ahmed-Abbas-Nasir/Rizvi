@@ -45,7 +45,7 @@ export const EthereumModel = () => {
   });
 
   return (
-    <group ref={modelRef} scale={1.3}  position={[-1, -1.7, 0]} rotation={[0, Math.PI * 3.7, 0]}>
+    <group ref={modelRef} scale={1.3}  position={[-1, -1.7, 0]} rotation={[0, Math.PI * 3.8, 0]}>
       <primitive object={myModel.scene} />
     </group>
   
