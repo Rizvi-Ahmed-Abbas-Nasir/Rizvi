@@ -10,7 +10,6 @@ export const ModelViewer = () => {
 
   return (
     <div className="mainPage1">
-      {/* Show Loader when Model is Loading */}
       {isLoading && (
         <div className="absolute inset-0 flex items-center justify-center bg-white">
           <div className="w-12 h-12 border-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
@@ -45,7 +44,7 @@ export const EthereumModel = () => {
   });
 
   return (
-    <group ref={modelRef} scale={1.3}  position={[-1, -1.7, 0]} rotation={[0, Math.PI * 3.8, 0]}>
+    <group ref={modelRef} scale={1.3}  position={[-1, -1.7, 0]} rotation={[-0.1, Math.PI * 3.8, 0]}>
       <primitive object={myModel.scene} />
     </group>
   
