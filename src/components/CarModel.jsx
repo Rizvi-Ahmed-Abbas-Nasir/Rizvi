@@ -11,9 +11,10 @@ export const ModelViewer = () => {
   return (
     <div className="mainPage1">
       {isLoading && (
-        <div className="absolute inset-0 flex items-center justify-center bg-white">
-          <div className="w-12 h-12 border-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
-        </div>
+      <div className="loader-container">
+      <div className="loader"></div>
+    </div>
+    
       )}
 
       <Canvas

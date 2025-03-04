@@ -335,6 +335,34 @@ body {
 }
 
 
+.loader-container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.loader {
+  width: 3rem; /* 12px */
+  height: 3rem; /* 12px */
+  border: 4px solid #d1d5db; /* gray-300 */
+  border-top-color: #3b82f6; /* blue-500 */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 
 .mainPage1{
   display: flex;
